@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @ChandanJha2022
+- 👋 Hi, I’m @ChandanJha
 - 👀 I’m interested in AutomationCoding
 - 🌱 I’m currently learning Javascript
 - 💞️ I’m looking to collaborate on Java
