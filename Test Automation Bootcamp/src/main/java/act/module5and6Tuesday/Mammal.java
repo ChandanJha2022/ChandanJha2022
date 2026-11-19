@@ -6,10 +6,11 @@ public class Mammal {
     private String name;
 
     // TODO: Create constructor for Mammal with parameter name
-public Mammal(String name) {
-    this.myAnimal = myAnimal;
-    this.name = name;
-}
+    public Mammal(String name) {
+        this.myAnimal = myAnimal;
+        this.name = name;
+    }
+
     public void setAnimal(Animal animal) {
         myAnimal = animal;
     }
@@ -17,13 +18,13 @@ public Mammal(String name) {
     public void animalIsSleeping() {
         System.out.println("Animal with name: " + name + " is ...");
         // TODO: Write code so that Animal sleep implementation is used
-myAnimal.sleep();
+        myAnimal.sleep();
     }
 
     public void animalIsSpeaking() {
         System.out.println("Animal with name: " + name + " is ...");
         // TODO: Write code so that Animal animalSound implementation is used
-myAnimal.animalSound();
+        myAnimal.animalSound();
     }
 
 }

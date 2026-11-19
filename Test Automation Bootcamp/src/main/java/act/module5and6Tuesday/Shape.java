@@ -4,6 +4,7 @@ package act.module5and6Tuesday;
 public abstract class Shape {
 
     public String color;
+
     public Shape() {
     }
 

@@ -38,7 +38,6 @@ public class InheritanceActivity {
         System.out.println("Employee's Salary is : " + myEmployee.getSalary());
 
 
-
         // Print Info using Person object
 
         System.out.println("-------------------------------------------");
@@ -49,5 +48,5 @@ public class InheritanceActivity {
 
         System.out.println("Person's Age is     : " + myPerson.getAge());
 
-            }
-        }
+    }
+}
