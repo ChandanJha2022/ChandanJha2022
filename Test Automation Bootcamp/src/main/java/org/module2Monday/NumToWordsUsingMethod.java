@@ -5,6 +5,7 @@ public class NumToWordsUsingMethod {
         int number = 5;
         printWord(number);
     }
+
     public static void printWord(int number) {
 
         switch (number) {

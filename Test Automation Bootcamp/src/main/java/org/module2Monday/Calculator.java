@@ -12,15 +12,18 @@ public class Calculator {
         System.out.println("Multiply - " + multiply(nums));
         System.out.println("Divide - " + divide(x, y));
     }
+
     private static int add(int x, int y) {
         int sum = x + y;
         return sum;
     }
+
     private static int subtract(int x, int y) {
         //TODO implement subtraction
-        int subtraction = x-y;
+        int subtraction = x - y;
         return subtraction;
     }
+
     private static int multiply(int[] numbers) {
         int temp = 1;
 
@@ -29,9 +32,10 @@ public class Calculator {
         }
         return temp;
     }
+
     private static int divide(int x, int y) {
         //TODO implement subtraction
-        int division = x/y;
+        int division = x / y;
         return division;
     }
-    }
+}

@@ -27,23 +27,18 @@ public class Calculator {
     }
 
     // Add
-    public int add (int x,int y)
-    {
-            int sum = x + y;
-            return sum;
+    public int add(int x, int y) {
+        int sum = x + y;
+        return sum;
     }
 
     // Subtract (Handles absolute or conditional difference)
 
-    public int subtract ( int x, int y)
-    {
+    public int subtract(int x, int y) {
         int diff = 0;
-        if (x > y)
-        {
+        if (x > y) {
             diff = x - y;
-        }
-        else
-        {
+        } else {
             diff = y - x;
         }
         return diff;
@@ -51,33 +46,27 @@ public class Calculator {
 
     // TODO: Complete the multiply method to multiply all numbers in an int array
 
-    public int multiply ( int[] numbers)
-    {
+    public int multiply(int[] numbers) {
         int temp = 1;
 
         // Write your loop here
-        for (int i = 0; i < numbers.length; i++)
-        {
+        for (int i = 0; i < numbers.length; i++) {
             temp = temp * numbers[i];
         }
         return temp;
-        }
-        // TODO: Complete the divide method (handle division by zero safely)
-
-        public int divide ( int x, int y)
-        {
-            int divValue = 0;
-
-            // Write your division logic here
-
-            if (y != 0)
-            {
-                divValue = x / y;
-            }
-            else
-            {
-                System.out.println("Cannot divide by zero");
-            }
-            return divValue;
-        }
     }
+    // TODO: Complete the divide method (handle division by zero safely)
+
+    public int divide(int x, int y) {
+        int divValue = 0;
+
+        // Write your division logic here
+
+        if (y != 0) {
+            divValue = x / y;
+        } else {
+            System.out.println("Cannot divide by zero");
+        }
+        return divValue;
+    }
+}
