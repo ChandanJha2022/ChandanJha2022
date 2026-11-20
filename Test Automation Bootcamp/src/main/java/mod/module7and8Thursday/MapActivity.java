@@ -1,4 +1,4 @@
-package mod.module7and8.Thursday;
+package mod.module7and8Thursday;
 
 //Needs to be completed
 

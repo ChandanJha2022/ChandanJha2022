@@ -1,4 +1,4 @@
-package mod.module7and8.Thursday;
+package mod.module7and8Thursday;
 
 import org.junit.After;
 import org.junit.Before;
