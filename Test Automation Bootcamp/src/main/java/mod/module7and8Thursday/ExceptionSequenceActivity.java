@@ -1,4 +1,4 @@
-package mod.module7and8.Thursday;
+package mod.module7and8Thursday;
 
 // Needs to be completed
 // 1 - Find out the error in this program and share your finding with the instructor

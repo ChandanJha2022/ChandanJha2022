@@ -1,4 +1,4 @@
-package mod.module7and8.Thursday;
+package mod.module7and8Thursday;
 
 // Needs to be completed
 // This program accepts a user name and checks user's validity
